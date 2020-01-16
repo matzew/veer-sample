@@ -1,7 +1,7 @@
 apiVersion: messaging.knative.dev/v1alpha1
 kind: Subscription
 metadata:
-  name: sub1
+  name: subkafka
 spec:
   channel:
     apiVersion: messaging.knative.dev/v1alpha1
